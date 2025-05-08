@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    float CGPA=8.5;
+    if (CGPA >=9.0){
+        printf("grade:A\n");
+    }else if ( CGPA >= 7.5){
+        printf("gread:B\n");
+    }else if (CGPA >= 6.0){
+        printf("greade:C\n");
+    }else{
+        printf ("greade:F\n");
+    }
+    return 0;
+    
+}    
+   
